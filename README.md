@@ -71,6 +71,10 @@ sudo python3 /opt/nvidia/jetson-io/conﬁg-by-hardware.py -l
 sudo python3 /opt/nvidia/jetson-io/conﬁg-by-hardware.py -n "oToCAM IMX390ISP GMSL Kmod"
 ```
 - Reboot
+- Run the command to find the number of connected cameras ```videoxx```
+```Shell
+/dev ls
+```
 - Try the camera and OpenCV
 ```Shell
 python3 runcamera.py

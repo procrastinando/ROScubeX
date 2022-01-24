@@ -5,7 +5,7 @@ A guide to get started with ROS Cube X
 - Host PC with Ubuntu 18.04 or 20.04
 - Micro USB cable
 - Two pins to press the Recovery and Reset buttons
-- [Download](https://www.adlinktech.com/Products/ROS2_Solution/ROS2_Controller/ROScube-X?lang=en) the JetPack version for RQX-580 or RQX-58G
+- [Download](https://www.adlinktech.com/Products/ROS2_Solution/ROS2_Controller/ROScube-X?lang=en) the ROScube-X BSP for RQX-580 or RQX-58G
 ### Procedure:
 - Use the pins to press the RESET and RECOVERY buttons, then release them
 - ![](https://github.com/procrastinando/ROScubeX/blob/main/docs/reset.png)

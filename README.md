@@ -27,8 +27,7 @@ sudo ./nvmflash.sh
 ```
 ## 2. Initial setup:
 - Once the initial setup is complete, proceed to update the system using the default update application
-- Reboot
-- Run the next commands:
+- Reboot and run the next commands:
 ```Shell
 sudo apt install nvidia-jetpack
 sudo apt install python-pip python-dev build-essential

@@ -14,7 +14,7 @@ A guide to get started with ROS Cube X
 ```Shell
 lsusb
 ```
-In recovery mode NVIDIA Corp. is found:
+* In recovery mode NVIDIA Corp. is found:
 ![](https://github.com/procrastinando/ROScubeX/blob/main/recovery.png)
-In normal mode L4T (Linux for tegra) is found:
+* In normal mode L4T (Linux for tegra) is found:
 ![](https://github.com/procrastinando/ROScubeX/blob/main/norecovery.png)

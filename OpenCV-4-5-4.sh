@@ -85,7 +85,7 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -D BUILD_EXAMPLES=OFF ..
 
 # run make
-make -j4
+make -j6
 
 sudo rm -r /usr/include/opencv4/opencv2
 sudo make install

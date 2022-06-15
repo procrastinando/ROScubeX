@@ -63,12 +63,12 @@ cd ../
 ## 5. oToCAM drivers:
 - Install the debian package
 ```Shell
-sudo apt install ./otocam-imx390isp-gmsl-v0.01.01.deb
+sudo apt install drivers/VER_0.02.02/oToCAM264ISP/otocam-imx390isp-gmsl-v0.02.02.deb
 ```
 - After rebooting run the next commands to find the connected cameras, for example: ```1. oToCAM IMX390ISP GMSL Kmod```
 ```Shell
 sudo python3 /opt/nvidia/jetson-io/conﬁg-by-hardware.py -l
-sudo python3 /opt/nvidia/jetson-io/conﬁg-by-hardware.py -n "oToCAM IMX390ISP GMSL Kmod"
+sudo python3 /opt/nvidia/jetson-io/conﬁg-by-hardware.py -n 2="oToCAM IMX390ISP GMSL Kmod"
 ```
 - Reboot
 - Run the command to find the number of connected cameras ```videoxx```
